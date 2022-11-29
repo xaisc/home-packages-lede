@@ -160,6 +160,7 @@ svn export https://github.com/kuoruan/openwrt-upx/trunk/upx
 svn export https://github.com/kuoruan/openwrt-upx/trunk/ucl
 svn export https://github.com/immortalwrt/packages/trunk/libs/libcryptopp
 svn export https://github.com/immortalwrt/packages/trunk/devel/go-rice
+svn export https://github.com/coolsnowwolf/lede/trunk/package/network/services/fullconenat
 
 git_sparse_clone master "https://github.com/coolsnowwolf/packages" "leanpack" net/miniupnpd net/mwan3 multimedia/UnblockNeteaseMusic-Go \
 multimedia/UnblockNeteaseMusic net/amule net/baidupcs-web multimedia/gmediarender net/go-aliyundrive-webdav \
