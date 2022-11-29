@@ -28,8 +28,8 @@ GO_PKG_BUILD_PKG:=$(GO_PKG)/rice
 
 include $(INCLUDE_DIR)/host-build.mk
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/../../lang/golang/golang-host-build.mk
-include $(TOPDIR)/../../lang/golang/golang-package.mk
+include ../../../lang/golang/golang-host-build.mk
+include ../../../lang/golang/golang-package.mk
 
 define Package/go-rice
   SECTION:=devel
