@@ -5,17 +5,23 @@
 
 include $(TOPDIR)/rules.mk
   
-CATEGORY:=HomeISC
-SECTION:=luci
-SUBMENU:=3. Applications
+define Package/$(PKG_NAME)
+  SECTION:=luci
+  CATEGORY:=HomeISC
+  SUBMENU:=3. Applications
+  DEPENDS:=+ca-certs +curl +wget-ssl +PACKAGE_$(PKG_NAME)_INCLUDE_binary:adguardhome
+  TITLE:=LuCI app for AdGuardHome
+  DESCRIPTION:=LuCI support for AdGuardHome£¬mod by xaisc
+  PKGARCH:=all
+endef
 
 PKG_NAME:=luci-app-adguardhome
 PKG_MAINTAINER:=<https://github.com/rufengsuixing/luci-app-adguardhome>
 
-LUCI_TITLE:=LuCI app for AdGuardHome
-LUCI_PKGARCH:=all
-LUCI_DEPENDS:=+ca-certs +curl +wget-ssl +PACKAGE_$(PKG_NAME)_INCLUDE_binary:adguardhome
-LUCI_DESCRIPTION:=LuCI support for AdGuardHome
+#LUCI_TITLE:=LuCI app for AdGuardHome
+#LUCI_PKGARCH:=all
+#LUCI_DEPENDS:=+ca-certs +curl +wget-ssl +PACKAGE_$(PKG_NAME)_INCLUDE_binary:adguardhome
+#LUCI_DESCRIPTION:=LuCI support for AdGuardHome£¬mod by xaisc
 
 define Package/$(PKG_NAME)/config
 config PACKAGE_$(PKG_NAME)_INCLUDE_binary
