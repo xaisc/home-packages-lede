@@ -4,6 +4,10 @@
 #
 
 include $(TOPDIR)/rules.mk
+  
+CATEGORY:=HomeISC
+SECTION:=luci
+SUBMENU:=3. Applications
 
 PKG_NAME:=luci-app-adguardhome
 PKG_MAINTAINER:=<https://github.com/rufengsuixing/luci-app-adguardhome>
