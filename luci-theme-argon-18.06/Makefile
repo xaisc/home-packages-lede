@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=Argon Theme
+LUCI_TITLE:=Argon Theme for Lede or openwrt 18.06
 LUCI_DEPENDS:=
 PKG_VERSION:=1.7.3
 PKG_RELEASE:=20220421
