@@ -23,7 +23,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/toml11
   SECTION:=lib
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   TITLE:=C++11 header-only toml parser/encoder
   URL:=https://github.com/ToruNiina/toml11
   BUILDONLY:=1

@@ -35,7 +35,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 define Package/ddnsgo
   TITLE:=A Linux web GUI client of ddns-go
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle 
   URL:=https://github.com/jeessy2/ddns-go

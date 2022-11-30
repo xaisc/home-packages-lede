@@ -23,7 +23,7 @@ UNZIP_CMD:=unzip -q -d $(PKG_BUILD_DIR) $(DL_DIR)/$(PKG_SOURCE)
 
 define Package/dns2socks
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=IP Addresses and Names
   TITLE:=DNS to SOCKS or HTTP proxy
   URL:=http://dns2socks.sourceforge.net/

@@ -30,7 +30,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/aliyundrive-webdav
   SECTION:=multimedia
-  CATEGORY:=Multimedia
+  CATEGORY:=HomeISC
   TITLE:=WebDAV server for AliyunDrive
   URL:=https://github.com/messense/aliyundrive-webdav
 endef

@@ -27,7 +27,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/sub-web
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   URL:=https://github.com/CareyWang/sub-web
   TITLE:=A WebUI for generating proxy subscription url
   DEPENDS:=+subconverter

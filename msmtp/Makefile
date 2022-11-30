@@ -30,7 +30,7 @@ include $(INCLUDE_DIR)/nls.mk
 
 define Package/msmtp/Default
   SECTION:=mail
-  CATEGORY:=Mail
+  CATEGORY:=HomeISC
   DEPENDS:=$(INTL_DEPENDS)
   TITLE:=Simple sendmail SMTP forwarding
   URL:=https://marlam.de/msmtp

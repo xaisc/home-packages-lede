@@ -41,7 +41,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/verysync
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=A efficient data transmission tool
   URL:=http://www.verysync.com
   DEPENDS:=@(aarch64||arm||i386||mips||mipsel||powerpc64||x86_64)

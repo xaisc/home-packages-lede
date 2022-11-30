@@ -29,7 +29,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/udp2raw-tunnel
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic
 	URL:=https://github.com/wangyu-/udp2raw-tunnel
 endef

@@ -21,7 +21,7 @@ PKG_LICENSE:=GPL-2.0
 include $(INCLUDE_DIR)/package.mk
 
 define KernelPackage/natflow
-  CATEGORY:=X
+  CATEGORY:=HomeISC
   SUBMENU:=Fast Forward Stacks
   TITLE:=natflow kernel driver
   KCONFIG:= \
@@ -60,7 +60,7 @@ define Build/Compile
 endef
 
 define Package/natflow-boot
-  CATEGORY:=X
+  CATEGORY:=HomeISC
   SUBMENU:=Fast Forward Stacks
   TITLE:=natflow boot init script
   DEPENDS:= +kmod-natflow
@@ -76,7 +76,7 @@ define Package/natflow-boot/install
 endef
 
 define Package/natflow-auth
-  CATEGORY:=X
+  CATEGORY:=HomeISC
   SUBMENU:=Fast Forward Stacks
   TITLE:=natflow auth init script
   DEPENDS:= +kmod-natflow +ipset +lua-ipops

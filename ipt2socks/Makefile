@@ -22,7 +22,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/ipt2socks
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=Convert iptables to socks5
   URL:=https://github.com/zfl9/ipt2socks
   DEPENDS:=+libpthread

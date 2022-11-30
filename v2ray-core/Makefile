@@ -32,7 +32,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 define Package/v2ray/template
   TITLE:=A platform for building proxies to bypass network restrictions
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   URL:=https://www.v2fly.org
 endef
 

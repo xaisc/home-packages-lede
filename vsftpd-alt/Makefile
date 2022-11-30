@@ -24,7 +24,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/vsftpd-alt/Default
   SUBMENU:=File Transfer
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=A fast and secure FTP server (with aio support)
   URL:=http://vsftpd.beasts.org/
   MAINTAINER:=Cezary Jackiewicz <cezary@eko.one.pl>

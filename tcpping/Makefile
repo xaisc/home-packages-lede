@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/tcpping
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+libnet-1.2.x +libpcap
   TITLE:=TCP Ping Tool
 endef

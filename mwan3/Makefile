@@ -17,7 +17,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/mwan3
    SECTION:=net
-   CATEGORY:=Network
+   CATEGORY:=HomeISC
    SUBMENU:=Routing and Redirection
    DEPENDS:= \
      +ip \

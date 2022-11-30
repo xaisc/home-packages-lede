@@ -28,7 +28,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/dnsproxy
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=IP Addresses and Names
   TITLE:=Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support
   URL:=https://github.com/AdguardTeam/dnsproxy

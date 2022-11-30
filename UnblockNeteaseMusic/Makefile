@@ -24,7 +24,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/UnblockNeteaseMusic
   SECTION:=multimedia
-  CATEGORY:=Multimedia
+  CATEGORY:=HomeISC
   TITLE:=Revive Netease Cloud Music (NodeJS)
   URL:=https://github.com/nondanee/UnblockNeteaseMusic
   DEPENDS:=+node

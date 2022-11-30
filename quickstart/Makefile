@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=Web Servers/Proxies
 	TITLE:=Quickstart, the quick start.
 	DEPENDS:=@(x86_64||aarch64) +shadow-utils +shadow-useradd +mount-utils +lsblk +e2fsprogs +parted +smartmontools +smartd +mdadm

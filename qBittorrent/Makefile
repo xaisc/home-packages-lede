@@ -31,7 +31,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/qbittorrent
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=BitTorrent
 	DEPENDS:=+libgcc +libstdcpp \
 		+rblibtorrent \

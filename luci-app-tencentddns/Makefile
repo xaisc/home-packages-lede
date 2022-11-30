@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/luci-app-tencentddns
 	SECTION:=luci
-	CATEGORY:=LuCI
+	CATEGORY:=HomeISC
 	SUBMENU:=3. Applications
 	TITLE:=LuCI Support for tencentddns
 	PKGARCH:=all

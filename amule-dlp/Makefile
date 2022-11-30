@@ -30,7 +30,7 @@ include $(INCLUDE_DIR)/nls.mk
 define Package/amule-dlp
   SUBMENU:=P2P
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=A multi-platform eMule-like ed2k client
   URL:=http://www.amule.org/
   DEPENDS:=+antileech +libpng +libpthread +libncurses +libreadline +libwxbase \

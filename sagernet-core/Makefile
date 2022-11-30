@@ -35,7 +35,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 define Package/sagernet/template
   TITLE:=An enhanced v2ray edition for SagerNet
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   URL:=https://sagernet.org
 endef
 

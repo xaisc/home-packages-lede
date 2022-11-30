@@ -13,7 +13,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/netkeeper-interception
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=Netkeeper Account Dump Plugin
   DEPENDS:=ppp +rp-pppoe-server
 endef

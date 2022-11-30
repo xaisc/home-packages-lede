@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/app-store-ui
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   TITLE:=App Store UI
   BUILDONLY:=1
 endef

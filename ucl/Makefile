@@ -40,7 +40,7 @@ CONFIGURE_ARGS += \
 
 define Package/libucl
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   TITLE:=Portable lossless data compression library
   URL:=http://www.oberhumer.com/opensource/ucl/
 endef

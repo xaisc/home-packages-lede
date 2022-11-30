@@ -28,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/qttools
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   SUBMENU:=Qt5
   TITLE:=qttools
   URL:=http://qt-project.org

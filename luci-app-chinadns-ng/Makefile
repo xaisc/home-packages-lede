@@ -22,7 +22,7 @@ endef
 
 define Package/$(PKG_NAME)
 	SECTION:=luci
-	CATEGORY:=LuCI
+	CATEGORY:=HomeISC
 	SUBMENU:=3. Applications
 	TITLE:=LuCI support for chinadns-ng
 	LUCI_DEPENDS:=+chinadns-ng

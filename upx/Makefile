@@ -41,7 +41,7 @@ endef
 
 define Package/upx
   SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=HomeISC
   DEPENDS:=+libucl +libstdcpp +zlib
   TITLE:=The Ultimate Packer for eXecutables
   URL:=https://upx.github.io/

@@ -13,7 +13,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/sms-tool
   SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=HomeISC
   TITLE:=sms tool
   URL:=https://github.com/obsy/sms_tool
 endef

@@ -28,7 +28,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/brook
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=A cross-platform proxy software
   DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle

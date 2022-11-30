@@ -12,7 +12,7 @@ include $(TOPDIR)/feeds/luci/luci.mk
 
 define Package/luci-app-tencentcloud-cos
 	SECTION:=luci
-	CATEGORY:=LuCI
+	CATEGORY:=HomeISC
 	SUBMENU:=3. Applications
 	TITLE:=COSFS Client for LuCI
 	PKGARCH:=all

@@ -16,7 +16,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=utils
-	CATEGORY:=Utilities
+	CATEGORY:=HomeISC
 	TITLE:=Simple Task Manager
 	DEPENDS:=+procd +script-utils +coreutils-stty
 	PKGARCH:=all

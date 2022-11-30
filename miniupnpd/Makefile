@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/miniupnpd
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+iptables +libip4tc +libuuid
   TITLE:=Lightweight UPnP IGD, NAT-PMP & PCP daemon
   SUBMENU:=Firewall

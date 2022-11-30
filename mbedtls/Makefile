@@ -41,7 +41,7 @@ endef
 define Package/libmbedtls
 $(call Package/mbedtls/Default)
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   SUBMENU:=SSL
   TITLE+= (library)
   ABI_VERSION:=12
@@ -72,7 +72,7 @@ endef
 define Package/mbedtls-util
 $(call Package/mbedtls/Default)
   SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=HomeISC
   TITLE+= (utilities)
   DEPENDS:=+libmbedtls
 endef

@@ -16,7 +16,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=File Transfer
 	TITLE:=Unified Network Shares Manager
 	DEPENDS:=+samba4-server +webdav2

@@ -30,7 +30,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/aliyundrive-fuse
   SECTION:=multimedia
-  CATEGORY:=Multimedia
+  CATEGORY:=HomeISC
   DEPENDS:=+fuse-utils
   TITLE:=FUSE for AliyunDrive
   URL:=https://github.com/messense/aliyundrive-fuse

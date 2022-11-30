@@ -48,7 +48,7 @@ endef
 
 define Package/aria2
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=File Transfer
   TITLE:=lightweight download utility
   URL:=https://aria2.github.io/

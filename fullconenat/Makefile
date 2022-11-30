@@ -26,7 +26,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/iptables-mod-fullconenat
   SUBMENU:=Firewall
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=FULLCONENAT iptables extension
   DEPENDS:=+iptables +kmod-ipt-fullconenat
 endef

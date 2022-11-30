@@ -14,7 +14,7 @@ PKG_MAINTAINER:=eSir Playground <https://github.com/esirplayground/luci-app-Ling
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-	CATEGORY:=eSir Playground
+	CATEGORY:=HomeISC
 	SUBMENU:=2. GameAcc
 	TITLE:=LuCI support for LingTiGameAcc
 	PKGARCH:=all

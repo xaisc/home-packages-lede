@@ -30,7 +30,7 @@ CMAKE_OPTIONS+= \
 
 define Package/rapidjson
   SECTION:=lib
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   URL:=https://github.com/Tencent/rapidjson
   TITLE:=rapidjson JSON parser/generator for C++
   BUILDONLY:=1

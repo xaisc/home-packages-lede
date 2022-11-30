@@ -24,7 +24,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/libwxbase
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   TITLE:=Cross-platform C++ framework
   URL:=http://www.wxwidgets.org/
   DEPENDS:=+libexpat +libstdcpp +zlib +libpthread

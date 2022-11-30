@@ -29,7 +29,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/qtbase/Default
 	SECTION:=libs
-	CATEGORY:=Libraries
+	CATEGORY:=HomeISC
 	SUBMENU:=Qt5
 	TITLE:=qtbase
 	URL:=http://qt-project.org

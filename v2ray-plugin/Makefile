@@ -29,7 +29,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/v2ray-plugin
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=SIP003 plugin for shadowsocks, based on v2ray
   URL:=https://github.com/teddysun/v2ray-plugin

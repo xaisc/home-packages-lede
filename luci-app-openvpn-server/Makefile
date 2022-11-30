@@ -8,7 +8,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   SECTION:=LuCI
-  CATEGORY:=LuCI
+  CATEGORY:=HomeISC
   SUBMENU:=3. Applications
   TITLE:=LuCI support for OpenVPN Server
   DEPENDS:=+openvpn-openssl +openvpn-easy-rsa-whisky +luci-compat

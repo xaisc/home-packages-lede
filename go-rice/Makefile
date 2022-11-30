@@ -28,12 +28,12 @@ GO_PKG_BUILD_PKG:=$(GO_PKG)/rice
 
 include $(INCLUDE_DIR)/host-build.mk
 include $(INCLUDE_DIR)/package.mk
-include ../../packages/lang/golang/golang-host-build.mk
-include ../../packages/lang/golang/golang-package.mk
+include $(TOPDIR)/feeds/packages/lang/golang/golang-host-build.mk
+include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/go-rice
   SECTION:=devel
-  CATEGORY:=Development
+  CATEGORY:=HomeISC
   TITLE:=A Go package that makes working with resources
   URL:=https://github.com/GeertJohan/go.rice
   DEPENDS:=$(GO_ARCH_DEPENDS)

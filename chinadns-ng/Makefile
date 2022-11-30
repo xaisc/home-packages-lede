@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/chinadns-ng
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=IP Addresses and Names
   TITLE:=ChinaDNS next generation, refactoring with epoll and ipset.
   URL:=https://github.com/zfl9/chinadns-ng

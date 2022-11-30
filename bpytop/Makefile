@@ -20,7 +20,7 @@ include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
 
 define Package/bpytop
   SECTION:=admin
-  CATEGORY:=Administration
+  CATEGORY:=HomeISC
   TITLE:=Python port of bashtop
   URL:=https://github.com/aristocratos/bpytop
   DEPENDS:=+python3-psutil +python3-setuptools

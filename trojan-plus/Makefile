@@ -53,7 +53,7 @@ CMAKE_OPTIONS += \
 
 define Package/trojan-plus
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 	URL:=https://github.com/Trojan-Plus-Group/trojan-plus
 	DEPENDS:= \

@@ -48,7 +48,7 @@ endif
 
 define Package/speedtest-web
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=speedtest-web is a Openwrt package for speedtest-go, a Go backend for LibreSpeed
   URL:=https://github.com/librespeed/speedtest-go
   DEPENDS:=$(GO_ARCH_DEPENDS)

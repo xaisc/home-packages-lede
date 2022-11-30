@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/libcron
   SECTION:=lib
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   URL:=https://github.com/PerMalmberg/libcron
   TITLE:=A C++ scheduling library using cron formatting
   DEPENDS:=+libstdcpp

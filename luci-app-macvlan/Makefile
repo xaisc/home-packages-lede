@@ -20,7 +20,7 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 include $(INCLUDE_DIR)/package.mk
 
 define Package/luci-app-macvlan
-	CATEGORY:=X
+	CATEGORY:=HomeISC
 	SUBMENU:=Macvlan
 	TITLE:=LuCI Support for macvlan
 	PKGARCH:=all

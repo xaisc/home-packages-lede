@@ -28,7 +28,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/gost
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=GO Simple Tunnel
   URL:=https://github.com/ginuerzh/gost
   DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle

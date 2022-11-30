@@ -13,7 +13,7 @@ PKG_VERSION:=1.20
 PKG_RELEASE:=20220218
 define Package/$(PKG_NAME)
   SECTION:=luci
-  CATEGORY:=LuCI
+  CATEGORY:=HomeISC
   SUBMENU:=3. Applications
   DEPENDS:=
    TITLE:=LuCI Support for advanced and filebrowser

@@ -40,7 +40,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/adguardhome
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=Network-wide ads and trackers blocking DNS server
 	URL:=https://github.com/AdguardTeam/AdGuardHome
 	DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle

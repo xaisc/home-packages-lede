@@ -19,7 +19,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/uugamebooster
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=@(aarch64||arm||mipsel||x86_64) +kmod-tun
   TITLE:=NetEase UU Game Booster
   URL:=https://uu.163.com

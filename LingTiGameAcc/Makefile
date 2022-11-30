@@ -17,7 +17,7 @@ PKG_MAINTAINER:=eSir Playground
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=eSir Playground
+  CATEGORY:=HomeISC
   SUBMENU:=2. GameAcc
   TITLE:=LingTi Game Accelerator
   URL:=https://github.com/esirplayground/LingTiGameAcc

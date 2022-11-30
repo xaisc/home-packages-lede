@@ -33,7 +33,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/mosdns/Default
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=IP Addresses and Names
   TITLE:=A plug-in DNS forwarder/splitter
   URL:=https://github.com/IrineSistiana/mosdns

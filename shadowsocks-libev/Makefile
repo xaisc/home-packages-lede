@@ -36,7 +36,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/shadowsocks-libev-config
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=shadowsocks-libev config scripts
   URL:=https://github.com/shadowsocks/shadowsocks-libev
@@ -57,7 +57,7 @@ endef
 define Package/shadowsocks-libev/Default
   define Package/shadowsocks-libev-$(1)
     SECTION:=net
-    CATEGORY:=Network
+    CATEGORY:=HomeISC
     SUBMENU:=Web Servers/Proxies
     TITLE:=shadowsocks-libev $(1)
     URL:=https://github.com/shadowsocks/shadowsocks-libev
@@ -85,7 +85,7 @@ $(eval $(call shadowsocks-libev/templates))
 
 define Package/shadowsocks-libev-ss-rules
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=shadowsocks-libev ss-rules
   URL:=https://github.com/shadowsocks/shadowsocks-libev

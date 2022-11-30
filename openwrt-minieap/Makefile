@@ -17,7 +17,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=Extensible 802.1x client with Ruijie v3 (v4) plugin
 	MAINTAINER:=updateing
 	URL:=https://github.com/updateing/minieap

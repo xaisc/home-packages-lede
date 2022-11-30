@@ -26,7 +26,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/subconverter
   SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=HomeISC
   TITLE:=Utility to convert between various proxy subscription format
   URL:=https://github.com/tindy2013/subconverter
   DEPENDS:=+libatomic +libcron +libcurl +libevent2 +libpcre2 \

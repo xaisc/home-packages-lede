@@ -29,7 +29,7 @@ endef
 
 define Package/oscam
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=Open Source Conditional Access Modul
   URL:=http://www.streamboard.tv/oscam
   DEPENDS:=+OSCAM_USE_LIBCRYPTO:libopenssl +OSCAM_USE_LIBUSB:libusb-1.0 +OSCAM_USE_PCSC:pcscd
@@ -37,7 +37,7 @@ endef
 
 define Package/list-smargo
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=List Smargo readers
   URL:=http://www.streamboard.tv/oscam
   DEPENDS:=oscam @OSCAM_CARDREADER_SMARGO

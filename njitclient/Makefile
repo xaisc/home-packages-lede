@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/njit8021xclient
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Campus Network
   TITLE:=NJIT 802.1X client program
   DEPENDS:=+libopenssl +libpcap

@@ -32,7 +32,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/trojan-go
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=A Trojan proxy written in Go
   DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle

@@ -47,7 +47,7 @@ TARGET_LDFLAGS += -Wl,--gc-sections
 
 define Package/minisign
 	SECTION:=utils
-	CATEGORY:=Utilities
+	CATEGORY:=HomeISC
 	TITLE:=A dead simple tool to sign files and verify signatures.
 	URL:=https://github.com/jedisct1/minisign
 	DEPENDS:=+libpthread \

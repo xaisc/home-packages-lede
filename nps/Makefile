@@ -33,7 +33,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/nps/template
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=A intranet penetration proxy server ($(1))
   DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle
   URL:=https://ehang-io.github.io/nps

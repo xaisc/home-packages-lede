@@ -13,7 +13,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/iptvhelper
    SECTION:=net
-   CATEGORY:=Network
+   CATEGORY:=HomeISC
    SUBMENU:=Routing and Redirection
    DEPENDS:= \
      +ipset \

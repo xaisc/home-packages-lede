@@ -23,7 +23,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/libquickjs
   SECTION:=lib
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   URL:=https://bellard.org/quickjs/
   TITLE:=A small and embeddable Javascript engine
   # mips(el) & glibc require it

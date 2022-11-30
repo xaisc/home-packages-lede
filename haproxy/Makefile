@@ -28,7 +28,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/haproxy/Default
   SUBMENU:=Web Servers/Proxies
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=TCP/HTTP Load Balancer
   URL:=https://www.haproxy.org/
 endef

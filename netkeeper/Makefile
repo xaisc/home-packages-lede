@@ -14,7 +14,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/netkeeper
 	SECTION:=utils
-	CATEGORY:=Utilities
+	CATEGORY:=HomeISC
 	TITLE:=Netkeeper
 	DEPENDS:=+ppp-mod-pppoe
 endef

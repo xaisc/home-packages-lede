@@ -37,7 +37,7 @@ define Package/netmaker
 $(call Package/netmaker/Default)
 $(call GoPackage/GoSubMenu)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=VPN
 endef
 
@@ -63,7 +63,7 @@ endef
 define Package/netmaker-dev
   TITLE+= (source files)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=VPN
   PKGARCH:=all
 endef

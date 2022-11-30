@@ -28,7 +28,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/cdnspeedtest
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=Getting the fastest ips to your network of CDN
   URL:=https://github.com/XIU2/CloudflareSpeedTest
   DEPENDS:=$(GO_ARCH_DEPENDS) +ca-bundle

@@ -32,7 +32,7 @@ endef
 
 define Package/v2ray-geodata/template
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=IP Addresses and Names
   URL:=https://www.v2fly.org
   PKGARCH:=all

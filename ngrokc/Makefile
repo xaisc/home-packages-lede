@@ -19,7 +19,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/ngrokc
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=Secure tunnels to localhost (C++ port)
   URL:=https://github.com/dosgo/ngrok-c

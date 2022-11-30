@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/openvpn-easy-rsa-whisky
   TITLE:=CLI utility to build and manage a PKI CA.
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   URL:=http://openvpn.net
   SUBMENU:=VPN
   DEPENDS:=+openssl-util

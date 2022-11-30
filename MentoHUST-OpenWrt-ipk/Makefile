@@ -19,7 +19,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/mentohust
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+libpcap
   TITLE:=A Ruijie Client Daemon
   URL:=https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git

@@ -56,7 +56,7 @@ TAR_CMD:=$(HOST_TAR) -C $(PKG_BUILD_DIR) $(TAR_OPTIONS)
 define Package/shadowsocks-rust/Default
   define Package/shadowsocks-rust-$(1)
     SECTION:=net
-    CATEGORY:=Network
+    CATEGORY:=HomeISC
     SUBMENU:=Web Servers/Proxies
     TITLE:=shadowsocks-rust $(1)
     URL:=https://github.com/shadowsocks/shadowsocks-rust

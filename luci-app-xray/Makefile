@@ -13,7 +13,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=Custom
-	CATEGORY:=Extra packages
+	CATEGORY:=HomeISC
 	TITLE:=LuCI Support for Xray
 	DEPENDS:=+luci-base +xray-core +dnsmasq +ca-bundle +PACKAGE_firewall4:kmod-nft-tproxy +PACKAGE_firewall:ipset +PACKAGE_firewall:iptables +PACKAGE_firewall:iptables-mod-tproxy
 	PKGARCH:=all

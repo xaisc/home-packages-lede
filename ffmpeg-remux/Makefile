@@ -76,7 +76,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/ffmpeg-remux
  TITLE:=FFmpeg remux
  SECTION:=multimedia
- CATEGORY:=Multimedia
+ CATEGORY:=HomeISC
  URL:=https://ffmpeg.org/
  DEPENDS+= +libpthread +zlib +libbz2
 endef

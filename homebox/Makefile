@@ -23,7 +23,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/$(PKG_NAME)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=A Toolbox for Home Local Networks
   URL:=https://github.com/XGHeaven/homebox

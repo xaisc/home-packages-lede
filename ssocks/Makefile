@@ -31,7 +31,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/ssocks/template
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=sSocks
 	URL:=https://github.com/tostercx/ssocks
 	DEPENDS:=+libopenssl

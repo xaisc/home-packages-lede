@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/nft-qos
   SECTION:=utils
-  CATEGORY:=Base system
+  CATEGORY:=HomeISC
   DEPENDS:=+kmod-nft-netdev +kmod-nft-bridge +nftables
   TITLE:=QoS scripts over nftables
   PKGARCH:=all

@@ -32,7 +32,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/qBittorrent-static
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=@(arm||aarch64||x86_64)
   SUBMENU:=BitTorrent
   TITLE:=bittorrent client programmed in C++ / Qt

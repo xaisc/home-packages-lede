@@ -27,7 +27,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/xray-plugin
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   TITLE:=SIP003 plugin for Shadowsocks, based on Xray
   URL:=https://github.com/teddysun/xray-plugin

@@ -46,7 +46,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/$(PKG_NAME)/Default
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=Web Servers/Proxies
 	TITLE:=Alist - Main program
 	URL:=https://alist-doc.nn.ci/

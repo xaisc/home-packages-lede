@@ -55,7 +55,7 @@ endif
 
 define Package/UnblockNeteaseMusic-Go
   SECTION:=multimedia
-  CATEGORY:=Multimedia
+  CATEGORY:=HomeISC
   TITLE:=Revive Netease Cloud Music (Golang)
   URL:=https://github.com/cnsilvan/UnblockNeteaseMusic
   DEPENDS:=$(GO_ARCH_DEPENDS)

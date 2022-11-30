@@ -28,7 +28,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/baidupcs-web
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Download Manager
   TITLE:=A web controller for BaiduPCS-Go
   URL:=https://github.com/Erope/BaiduPCS-Go

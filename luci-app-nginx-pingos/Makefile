@@ -20,7 +20,7 @@ PKG_INSTALL:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=LuCI
+  CATEGORY:=HomeISC
   SUBMENU:=3. Applications
   TITLE:=PingOS server
   PKGARCH:=all

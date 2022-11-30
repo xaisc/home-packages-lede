@@ -29,7 +29,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/shadowsocksr-libev/Default
   define Package/shadowsocksr-libev-ssr-$(1)
     SECTION:=net
-    CATEGORY:=Network
+    CATEGORY:=HomeISC
     SUBMENU:=Web Servers/Proxies
     TITLE:=shadowsocksr-libev ssr-$(1)
     URL:=https://github.com/shadowsocksrr/shadowsocksr-libev

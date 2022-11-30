@@ -27,7 +27,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/tcping
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=tcping measures the latency of a tcp-connection
 	URL:=https://github.com/jlyo/tcping
 endef

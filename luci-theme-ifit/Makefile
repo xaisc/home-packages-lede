@@ -15,7 +15,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/luci-theme-$(THEME_NAME)
   SECTION:=luci
-  CATEGORY:=LuCI
+  CATEGORY:=HomeISC
   SUBMENU:=4. Themes
   DEPENDS:=+libc
   TITLE:=Ifit by kenzo

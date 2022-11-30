@@ -33,7 +33,7 @@ TAR_CMD=$(HOST_TAR) -C $(1)/.. $(TAR_OPTIONS)
 define Package/v2raya
   TITLE:=A Linux web GUI client of Project V
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Web Servers/Proxies
   DEPENDS:=$(GO_ARCH_DEPENDS) \
     +ca-bundle \

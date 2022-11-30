@@ -8,7 +8,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/koolproxy
   SECTION:=multimedia
-  CATEGORY:=Multimedia
+  CATEGORY:=HomeISC
   DEPENDS:=@(aarch64||arm||i386||mips||mipsel||x86_64)
   TITLE:=koolproxy bin is from koolshare
   URL:=https://github.com/houzi-/CDN

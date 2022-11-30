@@ -26,7 +26,7 @@ UNZIP_CMD:=unzip -q -d $(PKG_BUILD_DIR) $(DL_DIR)/$(PKG_SOURCE)
 
 define Package/libcryptopp
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   TITLE:=Free C++ class library of cryptographic schemes
   URL:=https://packages.debian.org/sid/libcrypto++-dev
   DEPENDS:=+libpthread +libstdcpp

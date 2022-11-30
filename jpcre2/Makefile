@@ -24,7 +24,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/jpcre2
   SECTION:=lib
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   TITLE:=C++ wrapper for PCRE2 Library
   URL:=https://github.com/jpcre2/jpcre2
   BUILDONLY:=1

@@ -31,7 +31,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=BitTorrent
 	DEPENDS:=+libgcc +libstdcpp \
 		+rblibtorrent \

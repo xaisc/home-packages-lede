@@ -10,7 +10,7 @@ RSTRIP:=:
 
 define KernelPackage/oaf
   SECTION:=Derry Apps
-  CATEGORY:=Derry Apps
+  CATEGORY:=HomeISC
   TITLE:=open app filter kernel module
   FILES:=$(PKG_BUILD_DIR)/oaf.ko 
   DEPENDS:=+kmod-ipt-conntrack

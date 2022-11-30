@@ -18,7 +18,7 @@ TARGET_LDFLAGS += -Wl,--gc-sections,--as-needed
 
 define Package/$(PKG_NAME)
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=H3C client
 endef
 

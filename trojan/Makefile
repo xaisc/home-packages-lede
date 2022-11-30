@@ -51,7 +51,7 @@ CMAKE_OPTIONS += \
 
 define Package/trojan
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	TITLE:=An unidentifiable mechanism that helps you bypass GFW
 	URL:=https://github.com/trojan-gfw/trojan
 	DEPENDS:= \

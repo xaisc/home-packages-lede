@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=Web Servers/Proxies
 	TITLE:=LinkEase - the file cloud
 	DEPENDS:=@(arm||x86_64||aarch64) +ffmpeg-remux

@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/lua-neturl
   SUBMENU:=Lua
   SECTION:=lang
-  CATEGORY:=Languages
+  CATEGORY:=HomeISC
   TITLE:=URL and Query string parser, builder, normalizer for Lua
   URL:=https://github.com/golgote/neturl
   DEPENDS:=+lua

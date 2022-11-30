@@ -17,7 +17,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/cpulimit
   SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=HomeISC
   TITLE:=CPU usage limiter
   URL:=https://github.com/denji/cpulimit
 endef

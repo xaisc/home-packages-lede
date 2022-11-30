@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/dns2tcp
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=IP Addresses and Names
   TITLE:=utility to convert dns query from udp to tcp
   URL:=https://github.com/zfl9/dns2tcp

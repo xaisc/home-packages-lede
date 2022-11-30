@@ -30,7 +30,7 @@ TAR_CMD=$(HOST_TAR) -C $(PKG_BUILD_DIR) $(TAR_OPTIONS)
 
 define Package/webdav2
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=File Transfer
 	TITLE:=Simple Go WebDAV server.
 	URL:=https://github.com/hacdias/webdav

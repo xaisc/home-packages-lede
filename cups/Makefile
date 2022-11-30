@@ -29,7 +29,7 @@ endef
 define Package/cups
 $(call Package/cups/Default)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+libcups +libcupsmime  +libcupscgi +libcupsppdc +libusb-1.0
   TITLE:=Common UNIX Printing System (daemon)
 endef
@@ -47,7 +47,7 @@ endef
 define Package/cups-bsd
 $(call Package/cups/Default)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+libcups
   TITLE:=Common UNIX Printing System - BSD commands (old)
 endef
@@ -59,7 +59,7 @@ endef
 define Package/cups-client
 $(call Package/cups/Default)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+libcups +libcupsimage +libcupsmime
   TITLE:=Common UNIX Printing System - Client commands
 endef
@@ -75,7 +75,7 @@ endef
 define Package/cups-filters
 $(call Package/cups/Default)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+libcupsimage
   TITLE:=Common UNIX Printing System - Filter
 endef
@@ -87,7 +87,7 @@ endef
 define Package/cups-ppdc
 $(call Package/cups/Default)
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   DEPENDS:=+libcupsppdc
   TITLE:=Common UNIX Printing System - PPDC utils
 endef
@@ -99,7 +99,7 @@ endef
 define Package/libcups
 $(call Package/cups/Default)
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   DEPENDS:=+zlib +libpthread +libpng +libjpeg
   TITLE:=Common UNIX Printing System - Core library
 endef
@@ -111,7 +111,7 @@ endef
   define Package/libcupscgi
 $(call Package/cups/Default)
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   DEPENDS:=+libcups
   TITLE:=Common UNIX Printing System - CGI library
 endef
@@ -123,7 +123,7 @@ endef
 define Package/libcupsimage
 $(call Package/cups/Default)
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   DEPENDS:=+libcups
   TITLE:=Common UNIX Printing System - Image library
 endef
@@ -135,7 +135,7 @@ endef
 define Package/libcupsmime
 $(call Package/cups/Default)
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   DEPENDS:=+libcups
   TITLE:=Common UNIX Printing System - MIME library
 endef
@@ -147,7 +147,7 @@ endef
 define Package/libcupsppdc
 $(call Package/cups/Default)
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   DEPENDS:=+libcups +libstdcpp
   TITLE:=Common UNIX Printing System - PPDC library
 endef

@@ -13,7 +13,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/appfilter
   SECTION:=Derry Apps
-  CATEGORY:=Derry Apps
+  CATEGORY:=HomeISC
   DEPENDS:=+libubox +libubus  +libuci +libpthread +libjson-c +libblobmsg-json
   TITLE:=App filter userspace module
 endef

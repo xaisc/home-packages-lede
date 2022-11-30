@@ -23,7 +23,7 @@ include $(INCLUDE_DIR)/nls.mk
 define Package/antileech
   SUBMENU:=P2P
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=AntiLeech for amule
   URL:=http://www.amule.org/
   DEPENDS:=+libc +libwxbase

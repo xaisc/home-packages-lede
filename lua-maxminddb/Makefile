@@ -26,7 +26,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/lua-maxminddb
   SUBMENU:=Lua
   SECTION:=lang
-  CATEGORY:=Languages
+  CATEGORY:=HomeISC
   TITLE:=libmaxminddb bindings for lua
   URL:=https://github.com/jerrykuku/lua-maxminddb
   DEPENDS:=+lua +libmaxminddb

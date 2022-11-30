@@ -28,7 +28,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/go-aliyundrive-webdav
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=File Transfer
   TITLE:=A WebDav server for AliyunDrive
   URL:=https://github.com/LinkLeong/go-aliyundrive-webdav

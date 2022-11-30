@@ -31,7 +31,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
 define Package/filebrowser
   SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=HomeISC
   TITLE:=Web File Browser
   URL:=https://github.com/filebrowser/filebrowser
   DEPENDS:=$(GO_ARCH_DEPENDS)

@@ -10,7 +10,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/luci-app-minieap
 	SECTION:=luci
-	CATEGORY:=LuCI
+	CATEGORY:=HomeISC
 	SUBMENU:=3. Applications
 	TITLE:=minieap 802.1X Client for LuCI
 	PKGARCH:=all

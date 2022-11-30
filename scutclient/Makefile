@@ -31,7 +31,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/scutclient
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=Campus Network
   TITLE:=SCUT Dr.com client
   URL:=https://github.com/scutclient/scutclient

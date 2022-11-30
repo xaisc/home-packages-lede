@@ -22,7 +22,7 @@ include $(INCLUDE_DIR)/cmake.mk
 
 define Package/rblibtorrent
   SECTION:=libs
-  CATEGORY:=Libraries
+  CATEGORY:=HomeISC
   TITLE:=Rasterbar BitTorrent library
   URL:=https://www.libtorrent.org/
   DEPENDS:=+libgcc +libstdcpp +libopenssl +boost +boost-system +boost-chrono +boost-random +libatomic

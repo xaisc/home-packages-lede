@@ -25,7 +25,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/redsocks2
 	SECTION:=net
-	CATEGORY:=Network
+	CATEGORY:=HomeISC
 	SUBMENU:=Web Servers/Proxies
 	TITLE:=Redirect any TCP connection to a SOCKS or HTTPS proxy server
 	URL:=https://github.com/semigodking/redsocks

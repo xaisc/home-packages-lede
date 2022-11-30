@@ -26,7 +26,7 @@ MAKE_VARS+= VER=$(PKG_VERSION)
 
 define Package/smartdns
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   TITLE:=smartdns server
   DEPENDS:=+libpthread +libopenssl
   URL:=https://www.github.com/pymumu/smartdns/

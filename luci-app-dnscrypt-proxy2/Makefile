@@ -32,7 +32,7 @@ endef
 
 define Package/$(PKG_NAME)
  	SECTION:=luci
-	CATEGORY:=LuCI
+	CATEGORY:=HomeISC
 	SUBMENU:=3. Applications
 	TITLE:=DNSCrypt Proxy LuCI interface
 	URL:=https://github.com/peter-tank/luci-app-dnscrypt-proxy2

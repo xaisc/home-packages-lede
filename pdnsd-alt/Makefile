@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/pdnsd-alt
   SECTION:=net
-  CATEGORY:=Network
+  CATEGORY:=HomeISC
   SUBMENU:=IP Addresses and Names
   TITLE:=Proxy DNS Server
   DEPENDS:=+libpthread
