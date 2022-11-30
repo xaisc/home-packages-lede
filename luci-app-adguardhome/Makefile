@@ -15,7 +15,7 @@ define Package/$(PKG_NAME)
   PKGARCH:=all
 endef
 
-PKG_NAME:=luci-app-adguardhome
+PKG_NAME:=luci-app-adguardhome_xaisc
 PKG_MAINTAINER:=<https://github.com/rufengsuixing/luci-app-adguardhome>
 
 #LUCI_TITLE:=LuCI app for AdGuardHome
