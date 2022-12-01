@@ -25,7 +25,8 @@ define Package/$(PKG_NAME)
 	CATEGORY:=HomeISC
 	SUBMENU:=3. Applications
 	TITLE:=LuCI support for chinadns-ng
-	LUCI_DEPENDS:=+chinadns-ng
+#	LUCI_DEPENDS:=+chinadns-ng
+	DEPENDS:=+chinadns-ng
 endef
 
 define Build/Prepare
