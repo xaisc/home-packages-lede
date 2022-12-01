@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=luci-app-argonne-config
+PKG_NAME:=luci-app-argonne-config-18.06
 PKG_VERSION:=1.2
 PKG_RELEASE:=2
 
 PKG_MAINTAINER:=jerrykuku <jerrykuku@qq.com>
 
-LUCI_TITLE:=LuCI page for Argonne Config
+LUCI_TITLE:=LuCI page for Argonne Config-18.06
 LUCI_PKGARCH:=all
 LUCI_DEPENDS:=+luci-compat
 
