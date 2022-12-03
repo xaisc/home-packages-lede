@@ -3,7 +3,7 @@ name: Sync Homeisc packages
 on:
   push:
     paths:
-      - '.github/workflows/small8.yml'
+      - '.github/workflows/main.yml'
       - 'diy/**'
   schedule:
     - cron: 0 0/12 * * *
